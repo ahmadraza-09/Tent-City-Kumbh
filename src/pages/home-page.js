@@ -5,6 +5,7 @@ import Hero from '../components/hero'
 import Footer from '../components/footer'
 import SocialMediaFixed from '../components/socialmedia-fixed'
 import TopBanner from '../components/top-banner'
+import About from '../components/about'
 
 const HomePage = () => {
   return (
@@ -43,6 +44,7 @@ const HomePage = () => {
       <TopBanner/>
       <Navbar />
       <Hero />
+      <About/>
       <Footer />
       <SocialMediaFixed />
     </>

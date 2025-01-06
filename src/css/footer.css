@@ -9,7 +9,7 @@ footer {
   width: 100%;
   height: fit-content;
   background-color: #fff;
-  border-top: 5px solid #fb734c;
+  border-top: 5px solid #ff7722;
   display: flex;
   align-items: start;
   justify-content: space-between;
@@ -28,7 +28,7 @@ footer {
 }
 
 .footer-container li:hover {
-    color: #fb734c;
+    color: #ff7722;
     transform: translateX(5px);
 }
 
@@ -47,7 +47,7 @@ footer {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 700;
-  color: #fb734c;
+  color: #ff7722;
   text-align: center;
   line-height: 25px;
 }
@@ -112,7 +112,7 @@ footer {
 .footer-copyright {
     height: 40px;
     width: 100%;
-    background-color: #fb734c;
+    background-color: #ff7722;
     color: #fff;
     display: flex;
     align-items: center;

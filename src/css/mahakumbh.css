@@ -1,0 +1,114 @@
+.mahakumbh-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.mahakumbh-section h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.mahakumbh-boxes-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mahakumbh-box {
+    height: 250px;
+    width: 230px;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.mahakumbh-box:hover {
+    transform: scale(1.05);
+}
+
+.mahakumbh-box1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+        url('../assets/mahakumbh/tent.jpg') no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.mahakumbh-box2 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+        url('../assets/mahakumbh/shahi-snan.webp') no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.mahakumbh-box3 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+        url('../assets/mahakumbh/hotel.jpg') no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.mahakumbh-box4 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+        url('../assets/mahakumbh/transport.avif') no-repeat;
+    background-position: top center;
+    background-size: cover;
+ 
+}
+
+.mahakumbh-box .mahakumbh-box-content {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 10px;
+    color: #fff;
+    gap: 5px;
+}
+
+.mahakumbh-box .mahakumbh-box-content h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    /* background-color: #B92100; */
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.mahakumbh-box .mahakumbh-box-content span {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 5px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .mahakumbh-section h1 {
+        font-size: 25px;
+    }
+
+    .mahakumbh-box {
+        width: 150px;
+        height: 180px;
+    }
+
+    .mahakumbh-box .mahakumbh-box-content h2 {
+        font-size: 14px;
+    }
+
+    .mahakumbh-box .mahakumbh-box-content span {
+        font-size: 14px;
+    }
+
+    .mahakumbh-box .mahakumbh-box-content {
+        padding: 5px;
+    }
+}

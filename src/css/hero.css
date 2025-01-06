@@ -22,7 +22,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4); /* Dark overlay for text readability */
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for text readability */
 }
 
 .hero-container {
@@ -50,7 +50,7 @@
 .hero-container-left h1 span {
   display: inline-block;
   animation: slideInOut 8s ease-in-out infinite;
-  color: #fb734c;
+  color: #ff7722;
   white-space: nowrap;
   text-transform: uppercase;
 }
@@ -110,7 +110,7 @@
 /* Color for first and third spans */
 .search-destination-texts span:nth-child(1),
 .search-destination-texts span:nth-child(3) {
-  color: #fb734c; /* White color */
+  color: #ff7722; /* White color */
 }
 
 /* Color for second and last spans */
@@ -143,7 +143,7 @@
 }
 
 .search-destination-search button {
-  background-color: #fb734c;
+  background-color: #ff7722;
   color: #fff;
   border: none;
   outline: none;
@@ -179,7 +179,7 @@
 }
 
 .suggestions-list li:hover {
-  background-color: #fb734c;
+  background-color: #ff7722;
   color: #fff;
 }
 

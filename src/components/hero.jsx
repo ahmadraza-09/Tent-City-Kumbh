@@ -13,7 +13,7 @@ import hero8 from '../assets/hero/hero8.jpg';
 
 const Hero = () => {
     const images = [hero1, hero2, hero3, hero4, hero5, hero7, hero8];
-    const services = ['Tent', 'Hotel', 'Transport', 'Personal Guide', 'Tent', 'Hotel', 'Transport', 'Personal Guide'];
+    const services = ['Tent', 'Shahi Snan', 'Hotel', 'Transport', 'Personal Guide','Tent', 'Shahi Snan',];
     const [currentIndex, setCurrentIndex] = useState(0);
     const [searchInput, setSearchInput] = useState('');
     const [filteredServices, setFilteredServices] = useState(services);
