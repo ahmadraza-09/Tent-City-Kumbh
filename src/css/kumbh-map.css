@@ -1,0 +1,49 @@
+.kumbh-map-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    text-align: center;
+}
+
+.kumbh-map-section h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.kumbh-map-section img {
+    width: 100%;
+}
+
+.kumbh-map-section iframe {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.kumbh-map-section button {
+    padding: 5px 10px;
+    margin-top: 20px;
+    background-color: #ee8c26;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+
+    .kumbh-map-section {
+        padding: 0px;
+    }
+
+    .kumbh-map-section h1 {
+        font-size: 25px;
+    }
+
+    .kumbh-map-section iframe {
+        margin-top: 20px;
+    }
+}
