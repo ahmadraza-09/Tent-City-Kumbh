@@ -90,14 +90,37 @@
 }
 
 /* Responsive */
+@media (max-width: 768px) {
+    .mahakumbh-section h1 {
+        font-size: 25px;
+    }
+
+    .mahakumbh-box {
+        width: 120px;
+        height: 150px;
+    }
+
+    .mahakumbh-box .mahakumbh-box-content h2 {
+        font-size: 14px;
+    }
+
+    .mahakumbh-box .mahakumbh-box-content span {
+        font-size: 14px;
+    }
+
+    .mahakumbh-box .mahakumbh-box-content {
+        padding: 5px;
+    }
+}
+
 @media (max-width: 480px) {
     .mahakumbh-section h1 {
         font-size: 25px;
     }
 
     .mahakumbh-box {
-        width: 150px;
-        height: 180px;
+        width: 120px;
+        height: 150px;
     }
 
     .mahakumbh-box .mahakumbh-box-content h2 {

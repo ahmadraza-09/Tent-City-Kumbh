@@ -6,6 +6,7 @@ import ThanksPage from './pages/thanks-page';
 import KumbhMapPage from './pages/kumbh-map-page';
 import MahakumbhPage from './pages/mahakumbh-page';
 import AboutPage from './pages/about-page';
+import KumbhGalleryPage from './pages/kumbh-gallery-page';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/contact' element={<ContactPage />} />
           <Route path='/thanks' element={<ThanksPage />} />
           <Route path='/kumbh-map' element={<KumbhMapPage />} />
+          <Route path='/kumbh-gallery' element={<KumbhGalleryPage />} />
           <Route path='/mahakumbh' element={<MahakumbhPage />} />
         </Routes>
       </BrowserRouter>

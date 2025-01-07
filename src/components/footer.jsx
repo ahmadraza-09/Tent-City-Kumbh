@@ -42,6 +42,15 @@ const Footer = () => {
                         navigate("/about");
                     }}>About</li>
                     <li onClick={() => {
+                        navigate("/mahakumbh");
+                    }}>Mahakumbh</li>
+                    <li onClick={() => {
+                        navigate("/kumbh-gallery");
+                    }}>Kumbh Gallery</li>
+                    <li onClick={() => {
+                        navigate("/kumbh-map");
+                    }}>Kumbh Map</li>
+                    <li onClick={() => {
                         navigate("/contact");
                     }}>Contact</li>
                     <li>Help</li>

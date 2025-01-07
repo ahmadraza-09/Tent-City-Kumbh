@@ -18,7 +18,7 @@ const About = () => {
                 <div className="about-description-container-left"><img src={Img} alt="" /></div>
                 <div className="about-description-container-right">
                     <p>
-                        <strong>Mahakumbh</strong> is a Spirituality glamping experience organized by the Government of Uttar Pradesh across Prayagraj. However, booking directly through government channels can sometimes be uncertain regarding guide & seat availability.
+                        <strong>Mahakumbh</strong> is a Spirituality glamping experience organized by the Government of Uttar Pradesh across Prayagraj.
                     </p>
                     <br />
                     <p>
@@ -44,7 +44,7 @@ const About = () => {
                 <div className="why-choose-boxes">
                     <div className="why-choose-box">
                         <img src={Surety} alt="" />
-                        <span>Surety <br /> Seat</span>
+                        <span>Surety <br /> Booking</span>
                     </div>
                     <div className="why-choose-box">
                         <img src={Guidance} alt="" />
