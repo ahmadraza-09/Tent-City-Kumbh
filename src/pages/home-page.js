@@ -11,40 +11,36 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>Tent City Kumbh</title>
-        <meta name="description" content="Explore Eco Retreat Odisha for luxury glamping experiences at Konark, Satkosia, Bhitarkanika, Daringbadi, Hirakud, Sonapur, and Putsil. Experience nature, adventure, and culture like never before." />
-        <meta name="keywords" content="Eco Retreat Odisha, Konark Eco Retreat, Satkosia glamping, Bhitarkanika eco camp, Daringbadi tourism, Hirakud luxury camping, Sonapur eco tourism, Putsil adventure retreat, Odisha glamping, luxury tents in Odisha, eco tourism Odisha, nature retreats Odisha, Odisha adventure tourism" />
-        <link rel="canonical" href="https://ecoretreatodisha.in" />
+        <title>Tent City Kumbh - Prayagraj Uttar Pradesh</title>
+        <meta name="description" content="Experience the grand Mahakumbh at Tent City Kumbh in Prayagraj, Uttar Pradesh. Enjoy premium tent accommodations, spiritual vibes, and cultural festivities during the holy Kumbh Mela." />
+        <meta name="keywords" content="Tent City Kumbh, Mahakumbh 2025, Prayagraj tent city, Kumbh tent accommodations, Uttar Pradesh Kumbh Mela, luxury tents Mahakumbh, spiritual festival Prayagraj, Kumbh camping experience" />
+        <link rel="canonical" href="https://tentcitykumbh.com/" />
 
         {/* JSON-LD structured data */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Resort",
-            "name": "Eco Retreat Odisha",
-            "url": "https://ecoretreatodisha.in",
-            "telephone": "+91 8743000609",
+            "@type": "LodgingBusiness",
+            "name": "Tent City Kumbh",
+            "url": "https://tentcitykumbh.com/",
+            "telephone": "+91 9318473156",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Odisha",
-              "addressCountry": "IN"
+              "addressLocality": "Prayagraj",
+              "addressRegion": "Uttar Pradesh",
+              "addressCountry": "India"
             },
-            "description": "Eco Retreat Odisha offers a luxurious eco-friendly glamping experience amidst Odisha's breathtaking natural beauty and cultural heritage.",
-            "amenities": [
-              "Luxury Tents",
-              "Adventure Activities",
-              "Cultural Performances",
-              "Eco-Friendly Practices",
-              "Fine Dining",
-            ]
+            "description": "Tent City Kumbh offers premium tent accommodations during the Mahakumbh in Prayagraj, Uttar Pradesh, with spiritual and cultural experiences.",
+            "keywords": "Tent City Kumbh, Mahakumbh 2025, Prayagraj tent city, Kumbh tent accommodations, Uttar Pradesh Kumbh Mela, luxury tents Mahakumbh, spiritual festival Prayagraj, Kumbh camping experience"
           })}
         </script>
       </Helmet>
-        
-      <TopBanner/>
+
+
+      <TopBanner />
       <Navbar />
       <Hero />
-      <About/>
+      <About />
       <Footer />
       <SocialMediaFixed />
     </>

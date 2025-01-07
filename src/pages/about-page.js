@@ -10,34 +10,36 @@ const AboutPage = () => {
   return (
     <>
       <Helmet>
-        <title>About Us - Eco Retreat Odisha</title>
-        <meta name="description" content="Discover Eco Retreat Odisha, your gateway to sustainable luxury stays across scenic locations like Konark, Satkosia, Hirakud, Bhitarkanika, Putsil, Daringbadi, and Sonapur. Experience nature like never before." />
-        <meta name="keywords" content="Eco Retreat Odisha, eco retreat Konark, eco retreat Satkosia, eco retreat Hirakud, eco retreat Bhitarkanika, eco retreat Putsil, eco retreat Daringbadi, eco retreat Sonapur, sustainable tourism Odisha, luxury eco retreats" />
-        <link rel="canonical" href="https://ecoretreatodisha.in/about" />
+        <title>About Tent City Kumbh - Mahakumbh Prayagraj</title>
+        <meta name="description" content="Learn about Tent City Kumbh in Prayagraj, Uttar Pradesh, a premium tent accommodation designed for the Mahakumbh. Experience the spiritual essence of the Kumbh Mela in luxury and comfort." />
+        <meta name="keywords" content="About Tent City Kumbh, Mahakumbh 2025, Prayagraj tent accommodations, Kumbh luxury tents, Uttar Pradesh Kumbh Mela, spiritual retreat Prayagraj, Tent City Prayagraj features" />
+        <link rel="canonical" href="https://tentcitykumbh.com/about" />
 
         {/* JSON-LD structured data */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "TravelAgency",
-            "name": "Eco Retreat Odisha",
-            "url": "https://ecoretreatodisha.in/about",
-            "telephone": "+91 8743000609",
-            "description": "We provide booking for eco retreats in Odisha across beautiful locations like Konark, Satkosia, Hirakud, Bhitarkanika, Putsil, Daringbadi, and Sonapur.",
+            "@type": "LodgingBusiness",
+            "name": "Tent City Kumbh",
+            "url": "https://tentcitykumbh.com/about",
+            "telephone": "+91 9318473156",
             "address": {
               "@type": "PostalAddress",
-              "addressRegion": "Odisha",
+              "addressLocality": "Prayagraj",
+              "addressRegion": "Uttar Pradesh",
               "addressCountry": "India"
-            }
+            },
+            "description": "Tent City Kumbh in Prayagraj offers luxurious and comfortable tent accommodations for pilgrims and tourists visiting the Mahakumbh. Immerse yourself in the divine atmosphere of the Kumbh Mela."
           })}
         </script>
       </Helmet>
+
 
       <TopBanner />
       <Navbar />
       <About />
       <Footer />
-      <SocialMediaFixed/>
+      <SocialMediaFixed />
     </>
   )
 }

@@ -4,36 +4,47 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import Contact from '../components/contact'
 import SocialMediaFixed from '../components/socialmedia-fixed'
-import TopBanner from '../components/top-banner' 
+import TopBanner from '../components/top-banner'
 
 const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us - Eco Retreat Odisha</title>
-        <meta name="description" content="Get in touch with Eco Retreat Odisha for bookings and inquiries. Explore eco retreats across Konark, Satkosia, Hirakud, Bhitarkanika, Putsil, Daringbadi, and Sonapur." />
-        <meta name="keywords" content="Contact Eco Retreat Odisha, eco retreat Konark, eco retreat Satkosia, eco retreat Hirakud, eco retreat Bhitarkanika, eco retreat Putsil, eco retreat Daringbadi, eco retreat Sonapur, Odisha eco tourism contact" />
-        <link rel="canonical" href="https://ecoretreatodisha.in/contact" />
+        <title>Contact Us - Tent City Kumbh Prayagraj</title>
+        <meta name="description" content="Get in touch with Tent City Kumbh for inquiries, bookings, or assistance regarding your stay during Mahakumbh at Prayagraj." />
+        <meta name="keywords" content="Contact Tent City Kumbh, Kumbh Mela inquiries, Prayagraj accommodations contact, Tent City bookings, Mahakumbh support" />
+        <link rel="canonical" href="https://tentcitykumbh.com/contact" />
 
         {/* JSON-LD structured data */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ContactPage",
-            "name": "Contact Eco Retreat Odisha",
-            "url": "https://ecoretreatodisha.in/contact",
-            "telephone": "+91 8743000609",
-            "contactType": "Customer Service",
-            "description": "Contact Eco Retreat Odisha for bookings and inquiries across eco retreat locations like Konark, Satkosia, Hirakud, Bhitarkanika, Putsil, Daringbadi, and Sonapur."
+            "url": "https://tentcitykumbh.com/contact",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+91 9318473156",
+              "contactType": "customer service",
+              "areaServed": "IN",
+              "availableLanguage": ["English", "Hindi"]
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Prayagraj",
+              "addressRegion": "Uttar Pradesh",
+              "postalCode": "",
+              "addressCountry": "India"
+            }
           })}
         </script>
       </Helmet>
+
 
       <TopBanner />
       <Navbar />
       <Contact />
       <Footer />
-      <SocialMediaFixed/>
+      <SocialMediaFixed />
     </>
   )
 }
