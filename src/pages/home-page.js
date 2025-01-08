@@ -6,6 +6,8 @@ import Footer from '../components/footer'
 import SocialMediaFixed from '../components/socialmedia-fixed'
 import TopBanner from '../components/top-banner'
 import About from '../components/about'
+import HowToReach from '../components/how-to-reach'
+import Mahakumbh from '../components/mahakumbh'
 
 const HomePage = () => {
   return (
@@ -40,7 +42,9 @@ const HomePage = () => {
       <TopBanner />
       <Navbar />
       <Hero />
+      <Mahakumbh/>
       <About />
+      <HowToReach/>
       <Footer />
       <SocialMediaFixed />
     </>

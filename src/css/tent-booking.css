@@ -1,0 +1,705 @@
+.mahakumbh-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.mahakumbh-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.mahakumbh-background-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background 1s ease-in-out;
+  z-index: 1;
+}
+
+.mahakumbh-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  color: white;
+  padding: 20px;
+}
+
+.mahakumbh-hero-overlay h1 {
+  text-transform: uppercase;
+  font-size: 3rem; /* Adjust for responsiveness */
+  font-weight: bold;
+  margin: 0;
+}
+
+.mahakumbh-hero-overlay h4 span {
+  text-transform: capitalize;
+}
+
+.mahakumbh-hero-overlay h1 span {
+  color: #FF7722;
+}
+
+.mahakumbh-welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  gap: 20px;
+}
+
+.mahakumbh-welcome h4 {
+  text-transform: uppercase;
+  color: #FF7722;
+}
+
+.mahakumbh-welcome h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+}
+
+.mahakumbh-welcome p {
+  text-align: center;
+}
+
+.mahakumbh-welcome h1 span {
+  color: #FF7722;
+}
+
+.mahakumbh-rooms {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+}
+
+.mahakumbh-room-card {
+  width: 280px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.mahakumbh-room-card:hover {
+  transform: scale(1.05);
+}
+
+.mahakumbh-room-card1 img {
+  object-position: center;
+}
+
+.mahakumbh-room-card2 img {
+  object-position: center;
+}
+
+.mahakumbh-room-card3 img {
+  object-position: center;
+}
+
+.mahakumbh-room-card4 img {
+  object-position: center;
+}
+
+.mahakumbh-room-card img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.mahakumbh-room-card-content {
+  height: fit-content;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  padding: 10px;
+  color: #fff;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  width: 100%;
+  box-sizing: border-box;
+  gap: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.mahakumbh-room-card-content h3 {
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #FF7722;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-container:hover .video-controls {
+  opacity: 1;
+  visibility: visible;
+}
+
+.video-controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.video-controls button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.video-controls button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.mahakumbh-explore-cottage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.mahakumbh-explore-cottage h2 {
+  text-transform: capitalize;
+  font-size: 40px;
+  text-align: center;
+}
+
+.mahakumbh-explore-cottage h2 span {
+  color: #FF7722;
+  text-transform: uppercase;
+}
+
+.mahakumbh-explore-cottage-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 20px; */
+}
+
+.mahakumbh-explore-cottage-container-left {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 50%;
+}
+
+.mahakumbh-explore-cottage-container-left img {
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.mahakumbh-explore-cottage-container-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #FF7722;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.mahakumbh-explore-cottage-container-right-box {
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mahakumbh-explore-cottage-container-right-box-left img {
+  width: 100px;
+}
+
+.mahakumbh-activities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  padding: 20px;
+}
+
+.mahakumbh-activities h4 {
+  font-size: 16px;
+  color: #FF7722;
+}
+
+.mahakumbh-activities h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.mahakumbh-activities-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.mahakumbh-activities-box {
+  width: 380px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.mahakumbh-activities-box:hover {
+  transform: scale(1.05);
+}
+
+.mahakumbh-activities-box h3 {
+  font-size: 25px;
+}
+
+.mahakumbh-activities-box p {
+  font-size: 14px;
+}
+
+.mahakumbh-how-to-reach {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.mahakumbh-how-to-reach h4 {
+  color: #FF7722;
+  text-transform: uppercase;
+}
+
+.mahakumbh-how-to-reach h2 {
+  font-size: 40px;
+}
+
+.mahakumbh-how-to-reach h2 span {
+  text-transform: uppercase;
+  color: #FF7722;
+}
+
+.mahakumbh-how-to-reach-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mahakumbh-how-to-reach-container-left {
+  width: 50%;
+  display: none;
+}
+
+.mahakumbh-how-to-reach-container-left img {
+  width: 100%;
+}
+
+.mahakumbh-how-to-reach-container-right {
+  width: 100%;
+}
+
+.travel-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.travel-section {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.travel-section h3 {
+  background-color: #FF7722;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 8px 8px 0 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead th {
+  background-color: #FF7722;
+  color: white;
+  padding: 10px;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f4f4f4;
+}
+
+.mahakumbh-attractions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.mahakumbh-attractions h4 {
+  color: #FF7722;
+  text-transform: uppercase;
+}
+
+.mahakumbh-attractions h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.mahakumbh-attractions h2 span {
+  color: #FF7722;
+  text-transform: uppercase;
+}
+
+.mahakumbh-attractions-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.mahakumbh-attractions-box {
+  width: 360px;
+  height: 460px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.mahakumbh-attractions-box:hover {
+  transform: scale(1.05);
+}
+
+.mahakumbh-attractions-box img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.mahakumbh-attractions-box-content {
+  height: fit-content;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  padding: 10px;
+  color: #fff;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  width: 100%;
+  box-sizing: border-box;
+  gap: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.mahakumbh-attractions-box-content h3 {
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #FF7722;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .mahakumbh-hero-overlay h1 {
+    font-size: 30px;
+  }
+
+  .mahakumbh-hero {
+    height: 50vh;
+  }
+
+  .mahakumbh-welcome h1 {
+    font-size: 30px;
+  }
+
+  .mahakumbh-rooms {
+    padding: 40px 10px;
+  }
+
+  .mahakumbh-room-card {
+    width: 220px;
+    height: 340px;
+  }
+
+  .mahakumbh-room-card-content h3 {
+    font-size: 14px;
+  }
+
+  .mahakumbh-explore-cottage h2 {
+    font-size: 30px;
+  }
+
+  .mahakumbh-explore-cottage-container-left {
+    display: none;
+  }
+
+  .mahakumbh-explore-cottage-container-right {
+    width: 100%;
+  }
+
+  .mahakumbh-activities h2 {
+    font-size: 30px;
+  }
+
+  .mahakumbh-activities-box {
+    width: 250px;
+    height: 420px;
+  }
+
+  .mahakumbh-activities-box img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .mahakumbh-how-to-reach h2 {
+    font-size: 30px;
+  }
+
+  .mahakumbh-attractions h2 {
+    font-size: 30px;
+  }
+
+  .mahakumbh-attractions-box {
+    width: 250px;
+    height: 350px;
+  }
+
+  .mahakumbh-attractions-box-content h3 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mahakumbh-hero-overlay h1 {
+    font-size: 25px;
+  }
+
+  .mahakumbh-hero-overlay h4 {
+    font-size: 12px;
+  }
+
+  .mahakumbh-hero {
+    height: 30vh;
+  }
+
+  .mahakumbh-welcome h1 {
+    font-size: 25px;
+  }
+
+  .mahakumbh-welcome p {
+    font-size: 12px;
+  }
+
+  .mahakumbh-rooms {
+    padding: 20px 10px;
+  }
+
+  .mahakumbh-room-card {
+    max-width: 320px;
+    width: 100%;
+    height: 340px;
+  }
+
+  .mahakumbh-room-card-content h3 {
+    font-size: 12px;
+  }
+
+  .mahakumbh-explore-cottage h2 {
+    font-size: 25px;
+  }
+
+  .mahakumbh-explore-cottage-container-left {
+    display: none;
+  }
+
+  .mahakumbh-explore-cottage-container-right {
+    width: 100%;
+  }
+
+  .mahakumbh-explore-cottage-container-right img {
+    width: 80px;
+  }
+
+  .mahakumbh-explore-cottage-container-right p {
+    font-size: 12px;
+  }
+
+  .mahakumbh-explore-cottage-container-right-box {
+    flex-direction: column;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .mahakumbh-activities h2 {
+    font-size: 25px;
+  }
+
+  .mahakumbh-activities h4 {
+    font-size: 12px;
+  }
+
+  .mahakumbh-activities-box {
+    max-width: 320px;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .mahakumbh-activities-box p {
+    font-size: 12px;
+  }
+
+  .mahakumbh-activities-box h3 {
+    font-size: 16px;
+  }
+
+  .mahakumbh-activities-box img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .mahakumbh-how-to-reach {
+    padding: 10px;
+  }
+
+  .travel-section {
+    padding: 10px;
+    overflow: scroll;
+  }
+
+  .travel-section h3 {
+    font-size: 16px;
+  }
+
+  thead th {
+    font-size: 14px;
+  }
+
+  tbody td {
+    font-size: 12px;
+  }
+
+  .mahakumbh-how-to-reach h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .mahakumbh-how-to-reach h4 {
+    font-size: 12px;
+  }
+
+  .mahakumbh-attractions h2 {
+    font-size: 25px;
+  }
+
+  .mahakumbh-attractions h4 {
+    font-size: 12px;
+  }
+
+  .mahakumbh-attractions-box {
+    width: 320px;
+    height: 350px;
+  }
+
+  .mahakumbh-attractions-box-content h3 {
+    font-size: 12px;
+  }
+}

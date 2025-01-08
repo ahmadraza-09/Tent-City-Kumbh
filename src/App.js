@@ -7,6 +7,7 @@ import KumbhMapPage from './pages/kumbh-map-page';
 import MahakumbhPage from './pages/mahakumbh-page';
 import AboutPage from './pages/about-page';
 import KumbhGalleryPage from './pages/kumbh-gallery-page';
+import TentBookingPage from './pages/tent-booking-page';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='/kumbh-map' element={<KumbhMapPage />} />
           <Route path='/kumbh-gallery' element={<KumbhGalleryPage />} />
           <Route path='/mahakumbh' element={<MahakumbhPage />} />
+          <Route path='/mahakumbh/tent-booking' element={<TentBookingPage />} />
         </Routes>
       </BrowserRouter>
   );

@@ -5,6 +5,7 @@ import Footer from '../components/footer'
 import KumbhMap from '../components/kumbh-map'
 import SocialMediaFixed from '../components/socialmedia-fixed'
 import TopBanner from '../components/top-banner'
+import HowToReach from '../components/how-to-reach'
 
 const KumbhMapPage = () => {
   return (
@@ -38,6 +39,7 @@ const KumbhMapPage = () => {
       <TopBanner />
       <Navbar />
       <KumbhMap />
+      <HowToReach/>
       <Footer />
       <SocialMediaFixed />
     </>
