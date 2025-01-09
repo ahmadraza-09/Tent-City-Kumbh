@@ -3,14 +3,14 @@ import { useParams } from "react-router-dom";
 import "../css/tent-booking.css";
 import tentBooking from "../data/tent-booking-data";
 
-const TentBooking = () => {
+const HotelBooking = () => {
     const { location } = useParams();
     const {
         name = "Eco Retreat",
         location: retreatLocation = "Mahakumbh",
         images = [],
-        tents = [],
-        cottages = [],
+        rooms = [],
+        hotelRooms = [],
         activities = [],
         howToReach = {},
         topAttractions = [],
@@ -27,24 +27,40 @@ const TentBooking = () => {
         }
     }, [images]);
 
+    const videoRef = useRef(null);
 
+    const stopVideo = () => {
+        if (videoRef.current) {
+            videoRef.current.pause();
+            videoRef.current.currentTime = 0;
+        }
+    };
 
+    const toggleFullscreen = () => {
+        if (document.fullscreenElement) {
+            document.exitFullscreen();
+        } else {
+            if (videoRef.current) {
+                videoRef.current.requestFullscreen();
+            }
+        }
+    };
 
     return (
         <section className="mahakumbh-section">
             <div className="mahakumbh-welcome">
                 <h4>Welcome To</h4>
-                <h1>{name} <span>{retreatLocation}</span></h1>
+                <h1>Hotel Booking <span>{retreatLocation}</span></h1>
                 <p>Mahakumbh: World's largest spiritual gathering at Prayagraj's sacred Sangam.</p>
             </div>
 
             {/* Rooms Section */}
             <div className="mahakumbh-rooms">
-                {tents.map((tent, index) => (
+                {rooms.map((room, index) => (
                     <div className={`mahakumbh-room-card mahakumbh-room-card${index + 1}`} key={index}>
-                        <img src={tent.images[0]} alt={tent.name} />
+                        <img src={room.images[0]} alt={room.name} />
                         <div className="mahakumbh-room-card-content">
-                            <h3>{tent.name}</h3>
+                            <h3>{room.name}</h3>
                         </div>
                     </div>
                 ))}
@@ -52,22 +68,21 @@ const TentBooking = () => {
 
             {/* Cottages Section */}
             <div className="mahakumbh-explore-cottage">
-                <h2>Discover Tents <span>Mahakumbh</span> </h2>
+                <h2>Discover Rooms <span>Mahakumbh</span> </h2>
                 <div className="mahakumbh-explore-cottage-container">
-                    {/* Displaying the Explore Image */}
                     <div className="mahakumbh-explore-cottage-container-left">
-                        <img src={cottages[0].exploreImages} alt="Explore Konark Cottages" />
+                        <img src={hotelRooms[0].exploreImages} alt="Explore Konark Cottages" />
                     </div>
 
                     <div className="mahakumbh-explore-cottage-container-right">
-                        {cottages.slice(1).map((cottage, index) => (
+                        {hotelRooms.slice(1).map((rooms, index) => (
                             <div className="mahakumbh-explore-cottage-container-right-box" key={index}>
                                 <div className="mahakumbh-explore-cottage-container-right-box-left">
-                                    <img src={cottage.icon} alt={cottage.name} />
+                                    <img src={rooms.icon} alt={rooms.name} />
                                 </div>
                                 <div className="mahakumbh-explore-cottage-container-right-box-right">
-                                    <h4>{cottage.name}</h4>
-                                    <p>{cottage.description}</p>
+                                    <h4>{rooms.name}</h4>
+                                    <p>{rooms.description}</p>
                                 </div>
                             </div>
                         ))}
@@ -196,4 +211,4 @@ const TentBooking = () => {
     );
 };
 
-export default TentBooking;
+export default HotelBooking;

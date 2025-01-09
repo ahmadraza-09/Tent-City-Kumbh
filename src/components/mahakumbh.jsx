@@ -31,7 +31,7 @@ const Mahakumbh = () => {
           </div>
         </div>
         <div className={`mahakumbh-box mahakumbh-box4`} onClick={() => {
-          navigate("/mahakumbh/transport");
+          navigate("/mahakumbh/transport-booking");
         }}>
           <div className="mahakumbh-box-content">
             <h2>Transport</h2>

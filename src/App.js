@@ -8,6 +8,9 @@ import MahakumbhPage from './pages/mahakumbh-page';
 import AboutPage from './pages/about-page';
 import KumbhGalleryPage from './pages/kumbh-gallery-page';
 import TentBookingPage from './pages/tent-booking-page';
+import ShahiSnanPage from './pages/shahi-snan-page';
+import HotelBookingPage from './pages/hotel-booking';
+import TransportBookingPage from './pages/transport-booking-page';
 
 
 function App() {
@@ -22,6 +25,9 @@ function App() {
           <Route path='/kumbh-gallery' element={<KumbhGalleryPage />} />
           <Route path='/mahakumbh' element={<MahakumbhPage />} />
           <Route path='/mahakumbh/tent-booking' element={<TentBookingPage />} />
+          <Route path='/mahakumbh/hotel-booking' element={<HotelBookingPage />} />
+          <Route path='/mahakumbh/transport-booking' element={<TransportBookingPage />} />
+          <Route path='/mahakumbh/shahi-snan' element={<ShahiSnanPage />} />
         </Routes>
       </BrowserRouter>
   );

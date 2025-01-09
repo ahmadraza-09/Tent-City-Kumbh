@@ -67,17 +67,18 @@ const Footer = () => {
                 <ul className="footer-container">
                     <h3>Mahakumbh</h3>
                     <li onClick={() => {
-                        navigate("/eco-retreat/konark");
+                        navigate("/tent-booking");
                     }}>Tent Booking</li>
                     <li onClick={() => {
-                        navigate("/eco-retreat/satkosia");
+                        navigate("/mahakumbh/hotel-booking");
                     }}>Hotel Booking</li>
                     <li onClick={() => {
-                        navigate("/eco-retreat/putsil");
-                    }}>Transport</li>
+                        navigate("/mahakumbh/shahi-snan");
+                    }}>Shahi Snan</li>
                     <li onClick={() => {
-                        navigate("/eco-retreat/sonapur");
-                    }}>Personal Guide</li>
+                        navigate("/mahakumbh/transport-booking");
+                    }}>Transport Booking</li>
+                    <li>Personal Guide</li>
                     
                 </ul>
                 <ul className="footer-container">
@@ -86,7 +87,7 @@ const Footer = () => {
                         <a href="https://www.instagram.com/ram_raj_holidays/" target='_blank'><img src={Instagram} alt="" /></a>
                         <a href="https://www.facebook.com/ramrajholidays" target='_blank'><img src={Facebook} alt="" /></a>
                         <a href="https://www.youtube.com/@RamRajHolidays" target='_blank'><img src={Youtube} alt="" /></a>
-                        <a href="https://api.whatsapp.com/send?phone=919318473156&text=Hello!%20I%20have%20query%20regarding%20kumbh%202025." target='_blank'><img src={Whatsapp} alt="" /></a>
+                        <a href="https://api.whatsapp.com/send?phone=919318473156&text=Hello!%20I%20have%20query%20regarding%20Mahakumbh%202025." target='_blank'><img src={Whatsapp} alt="" /></a>
                     </div>
                 </ul>
             </div>

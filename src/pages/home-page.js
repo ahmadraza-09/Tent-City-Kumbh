@@ -8,6 +8,7 @@ import TopBanner from '../components/top-banner'
 import About from '../components/about'
 import HowToReach from '../components/how-to-reach'
 import Mahakumbh from '../components/mahakumbh'
+import Attraction from '../components/attraction'
 
 const HomePage = () => {
   return (
@@ -45,6 +46,7 @@ const HomePage = () => {
       <Mahakumbh/>
       <About />
       <HowToReach/>
+      <Attraction/>
       <Footer />
       <SocialMediaFixed />
     </>

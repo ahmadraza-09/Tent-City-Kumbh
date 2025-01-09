@@ -39,7 +39,6 @@ const KumbhMapPage = () => {
       <TopBanner />
       <Navbar />
       <KumbhMap />
-      <HowToReach/>
       <Footer />
       <SocialMediaFixed />
     </>

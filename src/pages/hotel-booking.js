@@ -4,11 +4,10 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import SocialMediaFixed from '../components/socialmedia-fixed'
 import TopBanner from '../components/top-banner'
-import Mahakumbh from '../components/mahakumbh'
-import HowToReach from '../components/how-to-reach'
-import Attraction from '../components/attraction'
+import Tent from '../components/tent-booking'
+import HotelBooking from '../components/hotel-booking'
 
-const MahakumbhPage = () => {
+const HotelBookingPage = () => {
   return (
     <>
       <Helmet>
@@ -55,13 +54,11 @@ const MahakumbhPage = () => {
 
       <TopBanner />
       <Navbar />
-      <Mahakumbh />
-      <HowToReach/>
-      <Attraction/>
+      <HotelBooking />
       <Footer />
       <SocialMediaFixed />
     </>
   )
 }
 
-export default MahakumbhPage
+export default HotelBookingPage

@@ -96,8 +96,8 @@
     }
 
     .mahakumbh-box {
-        width: 120px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
     }
 
     .mahakumbh-box .mahakumbh-box-content h2 {
@@ -114,17 +114,23 @@
 }
 
 @media (max-width: 480px) {
+
+    .mahakumbh-section {
+        padding: 10px;
+    }
+
     .mahakumbh-section h1 {
         font-size: 25px;
     }
 
     .mahakumbh-box {
-        width: 120px;
+        width: 130px;
         height: 150px;
     }
 
     .mahakumbh-box .mahakumbh-box-content h2 {
         font-size: 14px;
+        
     }
 
     .mahakumbh-box .mahakumbh-box-content span {

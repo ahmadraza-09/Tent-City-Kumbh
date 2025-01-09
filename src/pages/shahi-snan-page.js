@@ -4,11 +4,11 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import SocialMediaFixed from '../components/socialmedia-fixed'
 import TopBanner from '../components/top-banner'
-import Mahakumbh from '../components/mahakumbh'
+import ShahiSnan from '../components/shahi-snan'
 import HowToReach from '../components/how-to-reach'
 import Attraction from '../components/attraction'
 
-const MahakumbhPage = () => {
+const ShahiSnanPage = () => {
   return (
     <>
       <Helmet>
@@ -55,13 +55,13 @@ const MahakumbhPage = () => {
 
       <TopBanner />
       <Navbar />
-      <Mahakumbh />
-      <HowToReach/>
-      <Attraction/>
+      <ShahiSnan />
+      <HowToReach />
+      <Attraction />
       <Footer />
       <SocialMediaFixed />
     </>
   )
 }
 
-export default MahakumbhPage
+export default ShahiSnanPage

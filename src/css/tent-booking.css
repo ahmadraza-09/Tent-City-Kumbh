@@ -52,7 +52,7 @@
 }
 
 .mahakumbh-hero-overlay h1 span {
-  color: #FF7722;
+  color: #ff7722;
 }
 
 .mahakumbh-welcome {
@@ -66,7 +66,7 @@
 
 .mahakumbh-welcome h4 {
   text-transform: uppercase;
-  color: #FF7722;
+  color: #ff7722;
 }
 
 .mahakumbh-welcome h1 {
@@ -80,7 +80,245 @@
 }
 
 .mahakumbh-welcome h1 span {
-  color: #FF7722;
+  color: #ff7722;
+}
+
+.mahakumbh-shahi-snan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  gap: 20px;
+}
+
+.mahakumbh-shahi-snan h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+}
+
+.mahakumbh-shahi-snan h2 span {
+  color: #ff7722;
+}
+
+.mahakumbh-shahi-snan-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mahakumbh-shahi-snan-container img {
+  max-width: 800px;
+  width: 100%;
+  position: relative;
+}
+
+.mahakumbh-shahi-snan-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.mahakumbh-shahi-snan-content li {
+  display: flex;
+  flex-direction: column;
+  color: #ff7722;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.mahakumbh-shahi-snan-content li span:last-of-type {
+  background-color: #ff7722;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 55px;
+  font-weight: 600;
+}
+
+.transport-booking-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.transport-box {
+  height: 250px;
+  width: 230px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.transport-box:hover {
+  transform: scale(1.05);
+}
+
+.transport-box1 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../assets/transport/sedan.webp") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.transport-box2 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../assets/transport/ertiga.webp") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.transport-box3 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../assets/transport/crysta.webp") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.transport-box4 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../assets/transport/tempo-traveller.webp") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.transport-box5 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../assets/transport/railway-pickup-drop.avif") no-repeat;
+  background-position: right center;
+  background-size: cover;
+}
+.transport-box6 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../assets/transport/airport-pickup-drop.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.transport-box7 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../assets/transport/local-sightseeing.avif") no-repeat;
+  background-position: left center;
+  background-size: cover;
+}
+.transport-box8 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../assets/transport/intercity-transfers.avif") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.transport-box .transport-box-content {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 10px 10px;
+  color: #fff;
+  gap: 5px;
+}
+
+.transport-box .transport-box-content h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  /* background-color: #B92100; */
+  color: #fff;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.mahakumbh-important-things {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.mahakumbh-important-things h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.mahakumbh-important-things h2 span {
+  color: #ff7722; /* Highlighted color */
+}
+
+.mahakumbh-important-things-container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mahakumbh-important-things-container img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.shahi-snan-details {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.shahi-snan-details strong {
+  color: #000; /* Emphasis on important details */
 }
 
 .mahakumbh-rooms {
@@ -153,7 +391,7 @@
   width: fit-content;
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: #FF7722;
+  background-color: #ff7722;
   font-size: 16px;
   text-transform: capitalize;
 }
@@ -214,7 +452,7 @@ video {
 }
 
 .mahakumbh-explore-cottage h2 span {
-  color: #FF7722;
+  color: #ff7722;
   text-transform: uppercase;
 }
 
@@ -245,7 +483,7 @@ video {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  background-color: #FF7722;
+  background-color: #ff7722;
   color: #fff;
   padding: 20px;
   border-radius: 20px;
@@ -275,7 +513,7 @@ video {
 
 .mahakumbh-activities h4 {
   font-size: 16px;
-  color: #FF7722;
+  color: #ff7722;
 }
 
 .mahakumbh-activities h2 {
@@ -328,7 +566,7 @@ video {
 }
 
 .mahakumbh-how-to-reach h4 {
-  color: #FF7722;
+  color: #ff7722;
   text-transform: uppercase;
 }
 
@@ -338,7 +576,7 @@ video {
 
 .mahakumbh-how-to-reach h2 span {
   text-transform: uppercase;
-  color: #FF7722;
+  color: #ff7722;
 }
 
 .mahakumbh-how-to-reach-container {
@@ -375,7 +613,7 @@ video {
 }
 
 .travel-section h3 {
-  background-color: #FF7722;
+  background-color: #ff7722;
   color: white;
   text-align: center;
   padding: 10px 0;
@@ -389,7 +627,7 @@ table {
 }
 
 thead th {
-  background-color: #FF7722;
+  background-color: #ff7722;
   color: white;
   padding: 10px;
 }
@@ -422,7 +660,7 @@ tbody tr:hover {
 }
 
 .mahakumbh-attractions h4 {
-  color: #FF7722;
+  color: #ff7722;
   text-transform: uppercase;
 }
 
@@ -432,7 +670,7 @@ tbody tr:hover {
 }
 
 .mahakumbh-attractions h2 span {
-  color: #FF7722;
+  color: #ff7722;
   text-transform: uppercase;
 }
 
@@ -489,7 +727,7 @@ tbody tr:hover {
   width: fit-content;
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: #FF7722;
+  background-color: #ff7722;
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -540,6 +778,10 @@ tbody tr:hover {
   .mahakumbh-activities-box {
     width: 250px;
     height: 420px;
+  }
+
+  .mahakumbh-shahi-snan-content li {
+    font-size: 16px;
   }
 
   .mahakumbh-activities-box img {
@@ -633,6 +875,14 @@ tbody tr:hover {
     font-size: 25px;
   }
 
+  .mahakumbh-shahi-snan-content li {
+    font-size: 14px;
+  }
+
+  .mahakumbh-shahi-snan-content li span:last-of-type {
+    border-radius: 10px;
+  }
+
   .mahakumbh-activities h4 {
     font-size: 12px;
   }
@@ -680,6 +930,35 @@ tbody tr:hover {
   .mahakumbh-how-to-reach h2 {
     font-size: 25px;
     text-align: center;
+  }
+
+  .mahakumbh-shahi-snan {
+    padding: 10px;
+  }
+
+  .mahakumbh-important-things {
+    padding: 10px;
+  }
+
+  .mahakumbh-important-things-container {
+    flex-direction: column;
+  }
+
+  .mahakumbh-important-things-container img {
+    width: 100%;
+  }
+
+  .mahakumbh-shahi-snan h2 {
+    font-size: 25px;
+  }
+  
+  .transport-box {
+    width: 150px;
+    height: 150px;
+  }
+
+  .transport-box .transport-box-content h2 {
+    font-size: 14px;
   }
 
   .mahakumbh-how-to-reach h4 {

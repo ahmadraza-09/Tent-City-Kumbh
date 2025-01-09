@@ -35,7 +35,7 @@ const SocialMediaFixed = () => {
             <img src={Call} alt="Call" />
           </a> */}
           <a
-            href="https://api.whatsapp.com/send?phone=919318473156&text=Hello!%20I%20have%20query%20regarding%20kumbh%202025."
+            href="https://api.whatsapp.com/send?phone=919318473156&text=Hello!%20I%20have%20query%20regarding%20Mahakumbh%202025."
             target="_blank"
           >
             <img src={Whatsapp} alt="Call" />

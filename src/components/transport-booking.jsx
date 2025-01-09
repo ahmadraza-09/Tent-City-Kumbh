@@ -3,13 +3,13 @@ import { useParams } from "react-router-dom";
 import "../css/tent-booking.css";
 import tentBooking from "../data/tent-booking-data";
 
-const TentBooking = () => {
+const TransportBooking = () => {
     const { location } = useParams();
     const {
         name = "Eco Retreat",
         location: retreatLocation = "Mahakumbh",
         images = [],
-        tents = [],
+        transports = [],
         cottages = [],
         activities = [],
         howToReach = {},
@@ -34,62 +34,22 @@ const TentBooking = () => {
         <section className="mahakumbh-section">
             <div className="mahakumbh-welcome">
                 <h4>Welcome To</h4>
-                <h1>{name} <span>{retreatLocation}</span></h1>
+                <h1>Transport Booking <span>{retreatLocation}</span></h1>
                 <p>Mahakumbh: World's largest spiritual gathering at Prayagraj's sacred Sangam.</p>
             </div>
 
-            {/* Rooms Section */}
-            <div className="mahakumbh-rooms">
-                {tents.map((tent, index) => (
-                    <div className={`mahakumbh-room-card mahakumbh-room-card${index + 1}`} key={index}>
-                        <img src={tent.images[0]} alt={tent.name} />
-                        <div className="mahakumbh-room-card-content">
-                            <h3>{tent.name}</h3>
-                        </div>
-                    </div>
-                ))}
-            </div>
-
-            {/* Cottages Section */}
-            <div className="mahakumbh-explore-cottage">
-                <h2>Discover Tents <span>Mahakumbh</span> </h2>
-                <div className="mahakumbh-explore-cottage-container">
-                    {/* Displaying the Explore Image */}
-                    <div className="mahakumbh-explore-cottage-container-left">
-                        <img src={cottages[0].exploreImages} alt="Explore Konark Cottages" />
-                    </div>
-
-                    <div className="mahakumbh-explore-cottage-container-right">
-                        {cottages.slice(1).map((cottage, index) => (
-                            <div className="mahakumbh-explore-cottage-container-right-box" key={index}>
-                                <div className="mahakumbh-explore-cottage-container-right-box-left">
-                                    <img src={cottage.icon} alt={cottage.name} />
-                                </div>
-                                <div className="mahakumbh-explore-cottage-container-right-box-right">
-                                    <h4>{cottage.name}</h4>
-                                    <p>{cottage.description}</p>
-                                </div>
+            {/* Transport Booking */}
+            <div className="transport-booking">
+                <div className="transport-booking-container">
+                    {transports.map((transport, index) => (
+                        <div key={index} className={`transport-box transport-box${index + 1}`}>
+                            <div className="transport-box-content">
+                                <h2>{transport.name}</h2>
                             </div>
-                        ))}
-                    </div>
-                </div>
-            </div>
-
-            {/* Activities Section */}
-            {/* <div className="mahakumbh-activities">
-                <h4>ACTIVITIES</h4>
-                <h2>Relish an Action-Packed Escape.</h2>
-                <br />
-                <div className="mahakumbh-activities-container">
-                    {activities.map((activity, index) => (
-                        <div className="mahakumbh-activities-box" key={index}>
-                            <img src={activity.icon} alt={activity.name} /> 
-                            <h3>{activity.name}</h3>
-                            <p>{activity.description}</p>
                         </div>
                     ))}
                 </div>
-            </div> */}
+            </div>
 
             {/* How to Reach Section */}
             <div className="mahakumbh-how-to-reach">
@@ -196,4 +156,4 @@ const TentBooking = () => {
     );
 };
 
-export default TentBooking;
+export default TransportBooking;

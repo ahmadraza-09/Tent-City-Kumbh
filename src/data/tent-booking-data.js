@@ -6,15 +6,23 @@ import Tent1 from '../assets/tent/dormitory-tent.jpg';
 import Tent2 from '../assets/tent/deluxe-cottage-tent.webp';
 import Tent3 from '../assets/tent/premium-cottage-tent.webp';
 
+import StandardRoom from '../assets/room/standard-room.jpg';
+import DeluxeRoom from '../assets/room/deluxe-room.jpg';
+import SuperDeluxeRoom from '../assets/room/super-deluxe-room.webp';
+import FamilyRoom from '../assets/room/family-room.webp';
+import SuiteRoom from '../assets/room/suite-room.jpg';
+
 import TentVideo from '../assets/tent-video.mp4';
 
-import AnandBhawan from '../assets/tourist-place/anand-bhawan.jpg';
+import LeteHanumanMandir from '../assets/tourist-place/lete-hanuman-mandir.jpeg';
 import Kumbh from '../assets/tourist-place/kumbh.jpeg';
 import AshokaPillar from '../assets/tourist-place/ashoka-pillar.jpg';
 
 import TentExplore from '../assets/mahakumbh/tent.jpg';
+import HotelExplore from '../assets/mahakumbh/hotel.jpg'
 
 import DormitoryTentIcon from '../assets/icon/dormitory-tent.png';
+import HotelIcon from '../assets/icon/hotel.png';
 
 const tentBooking = {
     name: "Tent Booking",
@@ -60,6 +68,89 @@ const tentBooking = {
             "Celebrate your momentus occasions by booking exclusive areas for lunches and dinners like our Elevated Machaan Decks, Beachside Cabanas, etc.",
     },
     rooms: [
+        {
+            name: "Standard Room",
+            images: [StandardRoom],
+            facilities: [
+                "Air Conditioning",
+                "WiFi",
+                "King-Size Bed",
+                "En Suite Bathroom",
+                "Complimentary Breakfast",
+            ],
+        },
+        {
+            name: "Deluxe Room",
+            images: [DeluxeRoom],
+            facilities: [
+                "Private Patio",
+                "24x7 Assistance",
+                "Spacious Interiors",
+                "King-Size Bed",
+                "Beach View",
+            ],
+        },
+        {
+            name: "Super Deluxe Room",
+            images: [SuperDeluxeRoom],
+            facilities: [
+                "Private Patio",
+                "24x7 Assistance",
+                "Spacious Interiors",
+                "King-Size Bed",
+                "Beach View",
+            ],
+        },
+        {
+            name: "Suite Room",
+            images: [SuiteRoom],
+            facilities: [
+                "Private Patio",
+                "24x7 Assistance",
+                "Spacious Interiors",
+                "King-Size Bed",
+                "Beach View",
+            ],
+        },
+        {
+            name: "Family Room",
+            images: [FamilyRoom],
+            facilities: [
+                "Private Patio",
+                "24x7 Assistance",
+                "Spacious Interiors",
+                "King-Size Bed",
+                "Beach View",
+            ],
+        },
+    ],
+    transports: [
+        {
+            name: "Sedan",
+        },
+        {
+            name: "Ertiga",
+        },
+        {
+            name: "Crysta",
+        },
+        {
+            name: "Tempo Traveller",
+        },
+        {
+            name: "Station Pickup & Drop",
+        },
+        {
+            name: "Airport Pickup & Drop",
+        },
+        {
+            name: "Local Sight Seeing",
+        },
+        {
+            name: "Intercity Transfers",
+        },
+    ],
+    tents: [
         {
             name: "Dormitory Tent",
             images: [DormitoryTent],
@@ -110,7 +201,35 @@ const tentBooking = {
             name: "Premium Cottage Tent",
             icon: DormitoryTentIcon,
             description: "A king-sized bedroom with a living room and a private dining area.",
-        }
+        },
+    ],
+    hotelRooms: [
+        { exploreImages: HotelExplore }, // This is the first element, used only for the explore image
+        {
+            name: "Standard Room",
+            icon: HotelIcon,
+            description: "With a comfortable twin / double bed along with a spacious porch and attached bathroom.",
+        },
+        {
+            name: "Deluxe Room",
+            icon: HotelIcon,
+            description: "Comfortable twin / double bed with a spacious sitting space to relax and en suite bathroom.",
+        },
+        {
+            name: "Super Deluxe Room",
+            icon: HotelIcon,
+            description: "A king-sized bedroom with a living room and a private dining area.",
+        },
+        {
+            name: "Suite Room",
+            icon: HotelIcon,
+            description: "A king-sized bedroom with a living room and a private dining area.",
+        },
+        {
+            name: "Family Room",
+            icon: HotelIcon,
+            description: "A king-sized bedroom with a living room and a private dining area.",
+        },
     ],
     // activities: [
     //     {
@@ -250,8 +369,8 @@ const tentBooking = {
     
     topAttractions: [
         {
-            name: "Anand Bhawan",
-            image: AnandBhawan
+            name: "Lete Hanuman Mandir",
+            image: LeteHanumanMandir
         },
         {
             name: "Kumbh",
