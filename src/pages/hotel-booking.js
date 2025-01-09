@@ -11,45 +11,36 @@ const HotelBookingPage = () => {
   return (
     <>
       <Helmet>
-        <title>Mahakumbh - Tent City Kumbh Prayagraj</title>
-        <meta name="description" content="Experience the spiritual essence of Mahakumbh at Tent City Kumbh Prayagraj. Learn about the significance, rituals, and cultural events of the grand festival." />
-        <meta name="keywords" content="Mahakumbh Prayagraj, Tent City Kumbh festival, Kumbh Mela significance, spiritual events Prayagraj, Kumbh rituals, Mahakumbh cultural highlights" />
-        <link rel="canonical" href="https://tentcitykumbh.com/mahakumbh" />
+        <title>Hotel Booking - Tent City Kumbh Prayagraj</title>
+        <meta name="description" content="Book your hotel stay for the Mahakumbh at Tent City Kumbh, Prayagraj. Enjoy comfortable accommodations near the grand event with premium facilities." />
+        <meta name="keywords" content="Hotel Booking Mahakumbh, Kumbh Mela hotel booking, Prayagraj hotels, Tent City accommodations, Mahakumbh hotel options" />
+        <link rel="canonical" href="https://tentcitykumbh.com/mahakumbh/hotel-booking" />
 
         {/* JSON-LD structured data */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Event",
-            "name": "Mahakumbh at Tent City Kumbh",
-            "url": "https://tentcitykumbh.com/mahakumbh",
-            "description": "Discover the grand festival of Mahakumbh at Tent City Kumbh, Prayagraj. Explore its spiritual significance, rituals, and cultural highlights.",
-            "location": {
-              "@type": "Place",
-              "name": "Tent City Kumbh",
+            "@type": "LodgingReservation",
+            "url": "https://tentcitykumbh.com/mahakumbh/hotel-booking",
+            "name": "Hotel Booking for Mahakumbh",
+            "description": "Reserve your hotel accommodation for Mahakumbh at Tent City Kumbh Prayagraj. Experience the spiritual gathering with comfortable stays and modern amenities.",
+            "telephone": "+91 9318473156",
+            "reservationFor": {
+              "@type": "LodgingBusiness",
+              "name": "Tent City Kumbh Hotels",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Prayagraj",
-                "addressRegion": "Uttar Pradesh",
-                "postalCode": "",
+                "streetAddress": "Prayagraj, Uttar Pradesh",
                 "addressCountry": "India"
               }
             },
-            "startDate": "2025-01-13",
-            "endDate": "2025-02-26",
-            "organizer": {
-              "@type": "Organization",
-              "name": "Tent City Kumbh",
-              "url": "https://tentcitykumbh.com",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91 9318473156",
-                "contactType": "customer service"
-              }
-            }
+            "reservationStatus": "https://schema.org/ReservationPending",
+            "checkinTime": "14:00",
+            "checkoutTime": "12:00"
           })}
         </script>
       </Helmet>
+
 
 
       <TopBanner />

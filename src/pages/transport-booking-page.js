@@ -10,45 +10,33 @@ const TransportBookingPage = () => {
   return (
     <>
       <Helmet>
-        <title>Mahakumbh - Tent City Kumbh Prayagraj</title>
-        <meta name="description" content="Experience the spiritual essence of Mahakumbh at Tent City Kumbh Prayagraj. Learn about the significance, rituals, and cultural events of the grand festival." />
-        <meta name="keywords" content="Mahakumbh Prayagraj, Tent City Kumbh festival, Kumbh Mela significance, spiritual events Prayagraj, Kumbh rituals, Mahakumbh cultural highlights" />
-        <link rel="canonical" href="https://tentcitykumbh.com/mahakumbh" />
+        <title>Transport Booking - Tent City Kumbh Prayagraj</title>
+        <meta name="description" content="Book your transport for Mahakumbh at Tent City Kumbh, Prayagraj. Hassle-free travel arrangements for pilgrims to the spiritual event." />
+        <meta name="keywords" content="Transport Booking Mahakumbh, Kumbh Mela transport, Prayagraj transport services, Tent City travel arrangements, Mahakumbh travel booking" />
+        <link rel="canonical" href="https://tentcitykumbh.com/mahakumbh/transport-booking" />
 
         {/* JSON-LD structured data */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Event",
-            "name": "Mahakumbh at Tent City Kumbh",
-            "url": "https://tentcitykumbh.com/mahakumbh",
-            "description": "Discover the grand festival of Mahakumbh at Tent City Kumbh, Prayagraj. Explore its spiritual significance, rituals, and cultural highlights.",
-            "location": {
-              "@type": "Place",
-              "name": "Tent City Kumbh",
+            "@type": "TravelAction",
+            "url": "https://tentcitykumbh.com/mahakumbh/transport-booking",
+            "name": "Transport Booking for Mahakumbh",
+            "description": "Secure your transport to Tent City Kumbh Prayagraj for Mahakumbh. Simplified travel solutions for pilgrims attending the grand spiritual gathering.",
+            "telephone": "+91 9318473156",
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Tent City Kumbh Transport Services",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Prayagraj",
-                "addressRegion": "Uttar Pradesh",
-                "postalCode": "",
+                "streetAddress": "Prayagraj, Uttar Pradesh",
                 "addressCountry": "India"
-              }
-            },
-            "startDate": "2025-01-13",
-            "endDate": "2025-02-26",
-            "organizer": {
-              "@type": "Organization",
-              "name": "Tent City Kumbh",
-              "url": "https://tentcitykumbh.com",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91 9318473156",
-                "contactType": "customer service"
               }
             }
           })}
         </script>
       </Helmet>
+
 
 
       <TopBanner />

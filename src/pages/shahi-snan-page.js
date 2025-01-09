@@ -12,45 +12,40 @@ const ShahiSnanPage = () => {
   return (
     <>
       <Helmet>
-        <title>Mahakumbh - Tent City Kumbh Prayagraj</title>
-        <meta name="description" content="Experience the spiritual essence of Mahakumbh at Tent City Kumbh Prayagraj. Learn about the significance, rituals, and cultural events of the grand festival." />
-        <meta name="keywords" content="Mahakumbh Prayagraj, Tent City Kumbh festival, Kumbh Mela significance, spiritual events Prayagraj, Kumbh rituals, Mahakumbh cultural highlights" />
-        <link rel="canonical" href="https://tentcitykumbh.com/mahakumbh" />
+        <title>Shahi Snan - Tent City Kumbh Prayagraj</title>
+        <meta name="description" content="Experience the holy Shahi Snan at Mahakumbh in Tent City Kumbh, Prayagraj. Participate in this auspicious spiritual ritual guided by tradition and devotion." />
+        <meta name="keywords" content="Shahi Snan Mahakumbh, Tent City Prayagraj Shahi Snan, Kumbh Mela Shahi Snan, holy bath Mahakumbh, Shahi Snan schedule, spiritual rituals Prayagraj" />
+        <link rel="canonical" href="https://tentcitykumbh.com/mahakumbh/shahi-snan" />
 
         {/* JSON-LD structured data */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Event",
-            "name": "Mahakumbh at Tent City Kumbh",
-            "url": "https://tentcitykumbh.com/mahakumbh",
-            "description": "Discover the grand festival of Mahakumbh at Tent City Kumbh, Prayagraj. Explore its spiritual significance, rituals, and cultural highlights.",
+            "name": "Shahi Snan",
+            "url": "https://tentcitykumbh.com/mahakumbh/shahi-snan",
+            "startDate": "2025-01-14", // Replace with the actual date
+            "endDate": "2025-01-14", // Replace with the actual date
             "location": {
               "@type": "Place",
-              "name": "Tent City Kumbh",
+              "name": "Tent City Kumbh, Prayagraj",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Prayagraj",
-                "addressRegion": "Uttar Pradesh",
-                "postalCode": "",
+                "streetAddress": "Prayagraj, Uttar Pradesh",
                 "addressCountry": "India"
               }
             },
-            "startDate": "2025-01-13",
-            "endDate": "2025-02-26",
+            "description": "Participate in the sacred Shahi Snan at Mahakumbh, Prayagraj, organized by Tent City Kumbh. Experience the spiritual grandeur of this holy event.",
             "organizer": {
               "@type": "Organization",
               "name": "Tent City Kumbh",
               "url": "https://tentcitykumbh.com",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91 9318473156",
-                "contactType": "customer service"
-              }
+              "telephone": "+91 9318473156"
             }
           })}
         </script>
       </Helmet>
+
 
 
       <TopBanner />

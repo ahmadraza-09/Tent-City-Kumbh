@@ -10,45 +10,41 @@ const TentBookingPage = () => {
   return (
     <>
       <Helmet>
-        <title>Mahakumbh - Tent City Kumbh Prayagraj</title>
-        <meta name="description" content="Experience the spiritual essence of Mahakumbh at Tent City Kumbh Prayagraj. Learn about the significance, rituals, and cultural events of the grand festival." />
-        <meta name="keywords" content="Mahakumbh Prayagraj, Tent City Kumbh festival, Kumbh Mela significance, spiritual events Prayagraj, Kumbh rituals, Mahakumbh cultural highlights" />
-        <link rel="canonical" href="https://tentcitykumbh.com/mahakumbh" />
+        <title>Tent Booking - Tent City Kumbh Prayagraj</title>
+        <meta name="description" content="Book your tent for the Mahakumbh at Tent City Kumbh, Prayagraj. Choose from a variety of tent options and experience the sacred gathering in comfort and style." />
+        <meta name="keywords" content="Tent Booking Mahakumbh, Kumbh Mela tent booking, Prayagraj accommodations, Tent City booking, Mahakumbh tent options" />
+        <link rel="canonical" href="https://tentcitykumbh.com/mahakumbh/tent-booking" />
 
         {/* JSON-LD structured data */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Event",
-            "name": "Mahakumbh at Tent City Kumbh",
-            "url": "https://tentcitykumbh.com/mahakumbh",
-            "description": "Discover the grand festival of Mahakumbh at Tent City Kumbh, Prayagraj. Explore its spiritual significance, rituals, and cultural highlights.",
-            "location": {
-              "@type": "Place",
-              "name": "Tent City Kumbh",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Prayagraj",
-                "addressRegion": "Uttar Pradesh",
-                "postalCode": "",
-                "addressCountry": "India"
-              }
-            },
-            "startDate": "2025-01-13",
-            "endDate": "2025-02-26",
-            "organizer": {
-              "@type": "Organization",
-              "name": "Tent City Kumbh",
-              "url": "https://tentcitykumbh.com",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91 9318473156",
-                "contactType": "customer service"
+            "@type": "Reservation",
+            "url": "https://tentcitykumbh.com/mahakumbh/tent-booking",
+            "name": "Tent Booking for Mahakumbh",
+            "description": "Book your tent for Mahakumbh at Tent City Kumbh Prayagraj. Explore various tent options and reserve your spot for the grand event.",
+            "telephone": "+91 9318473156",
+            "reservationFor": {
+              "@type": "Event",
+              "name": "Mahakumbh Prayagraj",
+              "startDate": "2025-01-14",
+              "endDate": "2025-02-14",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "location": {
+                "@type": "Place",
+                "name": "Tent City Kumbh",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Prayagraj, Uttar Pradesh",
+                  "addressCountry": "India"
+                }
               }
             }
           })}
         </script>
       </Helmet>
+
 
 
       <TopBanner />
