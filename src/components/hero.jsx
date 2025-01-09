@@ -2,18 +2,16 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../css/hero.css';
 
-import hero1 from '../assets/hero/hero1.png';
-import hero2 from '../assets/hero/hero2.png';
-import hero3 from '../assets/hero/hero3.png';
-import hero4 from '../assets/hero/hero4.png';
-import hero5 from '../assets/hero/hero5.png';
-import hero7 from '../assets/hero/hero7.jpg';
-import hero8 from '../assets/hero/hero8.jpg';   
+import hero1 from '../assets/mahakumbh/tent.jpg';
+import hero2 from '../assets/mahakumbh/shahi-snan.webp';
+import hero3 from '../assets/mahakumbh/hotel.jpg';
+import hero4 from '../assets/mahakumbh/transport.avif';
+import hero5 from '../assets/hero/hero8.jpg';
 
 
 const Hero = () => {
-    const images = [hero1, hero2, hero3, hero4, hero5, hero7, hero8];
-    const services = ['Tent', 'Shahi Snan', 'Hotel', 'Transport', 'Personal Guide','Tent', 'Shahi Snan',];
+    const images = [hero1, hero2, hero3, hero4, hero5];
+    const services = ['Tent', 'Shahi Snan', 'Hotel', 'Transport', 'Personal Guide'];
     const [currentIndex, setCurrentIndex] = useState(0);
     const [searchInput, setSearchInput] = useState('');
     const [filteredServices, setFilteredServices] = useState(services);
