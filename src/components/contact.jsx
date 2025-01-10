@@ -86,9 +86,8 @@ const Contact = () => {
                 <p>
                     <i class="fa-solid fa-map-marker-alt"></i>
                     <p>
-                        <span>Ayodhya Office</span>
-                        Near Shanti Oil Mill, Housla Nagar Colony, Modha,
-                        Ayodhya Dham Uttar Pradesh - 224001
+                        <span>Delhi Office</span>
+                        G10, Near Nawada Metro Station, Shyam Park, Nawada Majra Village, Nawada, New Delhi, Delhi, 110059
                     </p>
                 </p>
                 <p>

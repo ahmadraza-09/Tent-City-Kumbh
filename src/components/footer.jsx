@@ -22,8 +22,7 @@ const Footer = () => {
                         <h2>Tent City <br /> <span>Kumbh</span></h2>
                     </div>
                     <div className="contact-details">
-                        <span><i class="fa-solid fa-location-dot"></i>Near Shanti Oil Mill, Housla Nagar Colony, Modha,
-                        Ayodhya Dham Uttar Pradesh - 224001</span>
+                        <span><i class="fa-solid fa-location-dot"></i>G10, Near Nawada Metro Station, Shyam Park, Nawada Majra Village, Nawada, New Delhi, Delhi, 110059</span>
                         <span><i class="fa-solid fa-phone"></i><a href="tel:9318473156">+91 9318473156</a></span>
                         <span><i class="fa-solid fa-phone"></i><a href="tel:9650605101">+91 9650605101</a></span>
                         <span><i class="fa-solid fa-envelope"></i><a href="mailto:kumbh@tentcitykumbh.com">kumbh@tentcitykumbh.com</a></span>
