@@ -5,7 +5,7 @@ import '../css/footer.css'
 import Logo from '../assets/logo.png';
 
 import Instagram from '../assets/icon/instagram.webp';
-import Facebook from '../assets/icon/facebook.webp';
+import Twitter from '../assets/icon/twitter.png';
 import Youtube from '../assets/icon/youtube.webp';
 import Whatsapp from '../assets/icon/whatsapp.png';
 
@@ -83,9 +83,9 @@ const Footer = () => {
                 <ul className="footer-container">
                     <h3>Connect With Us</h3>
                     <div className="footer-social">
-                        <a href="https://www.instagram.com/ram_raj_holidays/" target='_blank'><img src={Instagram} alt="" /></a>
-                        <a href="https://www.facebook.com/ramrajholidays" target='_blank'><img src={Facebook} alt="" /></a>
-                        <a href="https://www.youtube.com/@RamRajHolidays" target='_blank'><img src={Youtube} alt="" /></a>
+                        <a href="https://www.instagram.com/tentcitykumbh/" target='_blank'><img src={Instagram} alt="" /></a>
+                        <a href="https://x.com/tentcitykumbh" target='_blank'><img src={Twitter} alt="" /></a>
+                        <a href="https://www.youtube.com/@tentcitykumbh" target='_blank'><img src={Youtube} alt="" /></a>
                         <a href="https://api.whatsapp.com/send?phone=919318473156&text=Hello!%20I%20have%20query%20regarding%20Mahakumbh%202025." target='_blank'><img src={Whatsapp} alt="" /></a>
                     </div>
                 </ul>

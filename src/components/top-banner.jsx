@@ -39,21 +39,21 @@ const TopBanner = () => {
 
       <div className="top-banner-right">
         <a
-          href="https://www.instagram.com/ram_raj_holidays/"
+          href="https://www.instagram.com/tentcitykumbh/"
           target="_blank"
           aria-label="follow us on instagram"
         >
           <i class="fa-brands fa-instagram"></i>
         </a>
         <a
-          href="https://www.facebook.com/ramrajholidays"
+          href="https://x.com/tentcitykumbh"
           target="_blank"
-          aria-label="follow us on facebook"
+          aria-label="follow us on Twitter"
         >
-          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
         </a>
         <a
-          href="https://www.youtube.com/@RamRajHolidays"
+          href="https://www.youtube.com/@tentcitykumbh"
           target="_blank"
           aria-label="follow us on youtube"
         >
