@@ -39,7 +39,7 @@ const TentBooking = () => {
             </div>
 
             {/* Tent Catalog */}
-            <a href="../assets/tent-catalog/kumbh-tent-catalog.pdf" download className="tent-catalog-button">
+            <a href="/kumbh-tent-catalog.pdf" download={'Kumbh Tent Catalog'} className="tent-catalog-button">
                 <i className="fa-solid fa-download"></i> Download Tent Catalog
             </a>
 
