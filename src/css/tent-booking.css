@@ -732,6 +732,20 @@ tbody tr:hover {
   text-transform: uppercase;
 }
 
+.tent-catalog-button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000;
+  background-color: #f4f4f4;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .mahakumbh-hero-overlay h1 {
@@ -981,5 +995,9 @@ tbody tr:hover {
 
   .mahakumbh-attractions-box-content h3 {
     font-size: 12px;
+  }
+
+  .tent-catalog-button {
+    font-size: 16px;
   }
 }

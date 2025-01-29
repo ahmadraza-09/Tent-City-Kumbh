@@ -38,6 +38,11 @@ const TentBooking = () => {
                 <p>Mahakumbh: World's largest spiritual gathering at Prayagraj's sacred Sangam.</p>
             </div>
 
+            {/* Tent Catalog */}
+            <a href="../assets/tent-catalog/kumbh-tent-catalog.pdf" download className="tent-catalog-button">
+                <i className="fa-solid fa-download"></i> Download Tent Catalog
+            </a>
+
             {/* Rooms Section */}
             <div className="mahakumbh-rooms">
                 {tents.map((tent, index) => (
