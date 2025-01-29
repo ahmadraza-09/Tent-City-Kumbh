@@ -23,12 +23,16 @@ import Gallery20 from "../assets/gallery/gallery20.jpeg";
 import Gallery21 from "../assets/gallery/gallery21.jpeg";
 import Gallery22 from "../assets/gallery/gallery22.jpeg";
 import Gallery23 from "../assets/gallery/gallery23.jpg";
+import Gallery24 from "../assets/gallery/gallery24.jpg";
+import Gallery25 from "../assets/gallery/gallery25.jpg";
+import Gallery26 from "../assets/gallery/gallery26.jpg";
+import Gallery27 from "../assets/gallery/gallery27.jpg";
 
 
 
 
 const kumbhGalleryData = {
-  Gallery: [Gallery1, Gallery2, Gallery3, Gallery4, Gallery5, Gallery6, Gallery7, Gallery8, Gallery9, Gallery10, Gallery11, Gallery12, Gallery13, Gallery14, Gallery15, Gallery16, Gallery17, Gallery18, Gallery19, Gallery20, Gallery21, Gallery22, Gallery23]
+  Gallery: [Gallery1, Gallery2, Gallery3, Gallery4, Gallery5, Gallery6, Gallery7, Gallery8, Gallery9, Gallery10, Gallery11, Gallery12, Gallery13, Gallery14, Gallery15, Gallery16, Gallery17, Gallery18, Gallery19, Gallery20, Gallery21, Gallery22, Gallery23, Gallery24, Gallery25, Gallery26, Gallery27]
 };
 
 export default kumbhGalleryData;
